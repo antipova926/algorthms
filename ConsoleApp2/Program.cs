@@ -14,9 +14,7 @@ using System;
 
 class Solution
 {
-
-    // Complete the miniMaxSum function below.
-    static void miniMaxSum(int[] arr)
+   static void miniMaxSum(int[] arr)
     {
         long minSum = 0;
         long maxSum = 0;
@@ -44,7 +42,6 @@ class Solution
         maxSum = Sum - minArr;
         System.Console.Write(maxSum);
     }
-
     static void Main(string[] args)
     {
         int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp))
